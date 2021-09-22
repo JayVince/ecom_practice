@@ -1425,59 +1425,32 @@ true posixrules
       <IntrospectionStateNumber>17362</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
-    <database id="3" parent="1" name="employees">
-      <ObjectId>16384</ObjectId>
-      <Owner>postgres</Owner>
-    </database>
-    <database id="4" parent="1" name="formation-symfony">
-      <ObjectId>16639</ObjectId>
-      <Owner>postgres</Owner>
-    </database>
-    <database id="5" parent="1" name="france">
-      <ObjectId>16386</ObjectId>
-      <Owner>postgres</Owner>
-    </database>
-    <database id="6" parent="1" name="postgres">
+    <database id="3" parent="1" name="postgres">
       <ObjectId>13450</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
     </database>
-    <database id="7" parent="1" name="store">
+    <database id="4" parent="1" name="employees">
+      <ObjectId>16384</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="store">
       <ObjectId>16385</ObjectId>
       <Owner>postgres</Owner>
     </database>
-    <database id="8" parent="1" name="world">
+    <database id="6" parent="1" name="france">
+      <ObjectId>16386</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="world">
       <ObjectId>16387</ObjectId>
       <Owner>postgres</Owner>
     </database>
-    <role id="9" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
-    </role>
-    <role id="10" parent="1" name="pg_monitor">
-      <ObjectId>3373</ObjectId>
-      <RoleGrants>3374
-3375
-3377</RoleGrants>
-    </role>
-    <role id="11" parent="1" name="pg_read_all_settings">
-      <ObjectId>3374</ObjectId>
-    </role>
-    <role id="12" parent="1" name="pg_read_all_stats">
-      <ObjectId>3375</ObjectId>
-    </role>
-    <role id="13" parent="1" name="pg_read_server_files">
-      <ObjectId>4569</ObjectId>
-    </role>
-    <role id="14" parent="1" name="pg_signal_backend">
-      <ObjectId>4200</ObjectId>
-    </role>
-    <role id="15" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
-    </role>
-    <role id="16" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
-    </role>
-    <role id="17" parent="1" name="postgres">
+    <database id="8" parent="1" name="formation-symfony">
+      <ObjectId>16639</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="9" parent="1" name="postgres">
       <ObjectId>10</ObjectId>
       <CreateDb>1</CreateDb>
       <CreateRole>1</CreateRole>
@@ -1486,6 +1459,33 @@ true posixrules
       <Config>TimeZone=UTC</Config>
       <Replication>1</Replication>
       <BypassRls>1</BypassRls>
+    </role>
+    <role id="10" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="13" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="14" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="15" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <RoleGrants>3374
+3375
+3377</RoleGrants>
+    </role>
+    <role id="16" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="17" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
     </role>
     <tablespace id="18" parent="1" name="pg_default">
       <ObjectId>1663</ObjectId>
