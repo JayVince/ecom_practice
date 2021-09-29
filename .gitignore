@@ -12,6 +12,7 @@
 .yarn
 /.yarn
 yarn.lock
+/migrations/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
