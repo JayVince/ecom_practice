@@ -1,20 +1,23 @@
 
 ###> symfony/framework-bundle ###
-.env
+/.idea
 /.env.local
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
-/.idea/
 /public/bundles/
 /var/
 /vendor/
+/.yarn/
+.yarn
+/.yarn
+yarn.lock
+/migrations/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
 .phpunit.result.cache
 /phpunit.xml
-phpunit.xml.dist
 ###< symfony/phpunit-bridge ###
 
 ###> phpunit/phpunit ###
@@ -28,5 +31,3 @@ phpunit.xml.dist
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
-
-.idea/.DS_Store
