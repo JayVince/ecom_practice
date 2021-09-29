@@ -170,13 +170,14 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ySPQenASi21ZHmZ5aesezv7u7I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -211,13 +212,23 @@
       <workItem from="1632332882396" duration="213000" />
       <workItem from="1632333108121" duration="836000" />
       <workItem from="1632333953217" duration="2322000" />
+
       <workItem from="1632477028582" duration="319000" />
       <workItem from="1632477349488" duration="22000" />
       <workItem from="1632477382748" duration="2874000" />
       <workItem from="1632814338553" duration="1473000" />
       <workItem from="1632844228602" duration="3982000" />
       <workItem from="1632849199459" duration="2229000" />
+
     </task>
+    <task id="LOCAL-00001" summary="Maj page d'accueil avec caroussel et vignettes produit">
+      <created>1632767437619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632767437619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,5 +248,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Maj page d'accueil avec caroussel et vignettes produit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maj page d'accueil avec caroussel et vignettes produit" />
   </component>
 </project>
