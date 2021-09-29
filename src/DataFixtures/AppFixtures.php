@@ -2,8 +2,6 @@
 
 namespace App\DataFixtures;
 
-require_once 'vendor/autoload.php';
-
 use App\Entity\City;
 use App\Entity\User;
 use App\Entity\Brand;
@@ -13,6 +11,7 @@ use App\Entity\Category;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
+
 
 class AppFixtures extends Fixture
 {
@@ -25,6 +24,7 @@ class AppFixtures extends Fixture
 
     public function load(ObjectManager $manager)
     {
+
         for ($i = 0; $i < 20; $i++) {
             $brand = new Brand();
             $brand->setName("brand".$i);

@@ -9,19 +9,17 @@ use EasyCorp\Bundle\EasyAdminBundle\Router\AdminUrlGenerator;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Product;
+use App\Entity\Address;
 
 class DashboardController extends AbstractDashboardController
 {
-    /**
-     * @Route("/admin", name="admin")
-     */
+    #[Route('/admin', name: 'admin', methods: ['GET', 'POST'])]
     public function index(): Response
     {
         $routeBuilder = $this->get(AdminUrlGenerator::class);
         $url = $routeBuilder->setController(ProductCrudController::class)->generateUrl();
 
         return $this->redirect($url);
-
     }
 
     public function configureDashboard(): Dashboard
