@@ -2,6 +2,8 @@
 
 namespace App\DataFixtures;
 
+require_once 'vendor/autoload.php';
+
 use App\Entity\City;
 use App\Entity\User;
 use App\Entity\Brand;
@@ -52,7 +54,7 @@ class AppFixtures extends Fixture
             $user = new User();
             $user->setEmail("test".$i."@test.com");
             $user->setRoles(["ROLE_USER"]);
-            $password = $this->encoder->encodePassword($user, 'pass_1234');
+            $password = $this->encoder->hashPassword($user, 'pass_1234');
             $user->setPassword($password);
             $user->setFirstName("firstname".$i);
             $user->setLastName("lastname".$i);
